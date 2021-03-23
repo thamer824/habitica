@@ -9,19 +9,23 @@ const gemsPromo = {
 };
 
 export const EVENTS = {
-  spring2021: {
-    start: '2021-03-18T08:00-05:00',
-    end: '2021-04-30T20:00-05:00',
-    npcImageSuffix: 'spring',
-    season: 'spring',
-    gear: true,
-  },
   noCurrentEvent2021: {
     start: '2021-02-16T08:00-05:00',
     end: '2021-03-23T08:00-05:00',
     season: 'normal',
     npcImageSuffix: '',
+  },
+  aprilFools2021: {
+    start: '2021-04-01T08:00-05:00',
+    end: '2021-04-02T08:00-05:00',
     aprilFools: 'invert',
+  },
+  spring2021: {
+    start: '2021-03-23T08:00-05:00',
+    end: '2021-04-30T20:00-05:00',
+    npcImageSuffix: 'spring',
+    season: 'spring',
+    gear: true,
   },
   valentines2021: {
     start: '2021-02-07T08:00-05:00',
